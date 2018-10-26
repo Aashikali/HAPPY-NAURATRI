@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="en_US">
+<head>
+	<meta charset="UTF-8">
+	<title>Happy Diwali</title>
+	<div class="Aashik">
+<h1>Programming By:</h1>
+<h2>Aashik Ali</h2>
+</div>
+<style>
+.Aashik{
+
+}
+.Aashik h1{
+position:absolute;
+color:red;
+font-size:30px;
+top:0%;
+left:80%;
+font-family:French Script MT;
+	}
+.Aashik h2{
+position:absolute;
+color:white;
+font-size:40px;
+top:3%;
+left:85%;
+font-family:Edwardian Script ITC;
+animation:animate 4s infinite;
+
+}
+
+@keyframes animate{
+	0%{color:#F00;
+	top:50%;
+	transform:rotate(-45deg);
+	left:30%;
+	}
+	
+	50%{color:#FF0080;transform:scale(0.8)	transform:rotate(90deg);;
+	transform:rotate(135deg);}
+	75%{color:#8000FF;transform:scale(1.5);}
+	100%{color:#F00;transform:scale(1);}
+	180%{color:#F00;transform:scale(0.8);
+}
+
+</style>
+ <style type="text/css">
+ #fromtext{
+	 position:absolute;
+	 top: 334px;
+	 left: 948px;
+	 color:#fff;
+	 transform:rotate:(360deg);
+	 border:2px dotted;
+	 border-radius:100%;
+	 animation:anim 9s infinite;
+}
+@keyframes anim{
+	0%{
+	color:#FF0; transform:scale(0.2);font-size:5px;font-family:Edwardian Script ITC;}
+	
+	100%{color:#F00;transform:scale(1); transform:rotate:(45deg);font-size:60px;font-family:Edwardian Script ITC;}
+}
+ </style>
+</head>
+<div class="back">
+<body background="images/12.jpg" style="background-size:1680px 950px;">
+	</div>
+    <h1 id="fromtext">Hello mr. 
+
+	<?php echo $_GET['name']; ?> Happy Nauratri</h1>
+    <canvas id="canvas"></canvas>
+ <script type="text/javascript" src="js/crackers.js"></script>
+
+</body>
+</html>
